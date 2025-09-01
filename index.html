@@ -151,7 +151,7 @@ Cybersecurity Portfolio
         let profileHeaderElem = document.getElementById("profileHeader");
         let currentScrollPos = window.pageYOffset;
         let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
+        let showNavBarOnScrollUp =  false ;
         let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
         if (showNavBar) {
             profileHeaderElem.classList.add("showHeaderOnTop");
@@ -250,6 +250,9 @@ Cybersecurity Portfolio
                     </li>
                     
 
+                    
+                        <li class="nav-item navbar-text d-none d-lg-block d-xl-block"><div class="nav-link nav-link-sep"></div></li>
+                        <div class="dropdown-divider"></div>
                     
 
                     
@@ -387,7 +390,7 @@ Cybersecurity Portfolio
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
                         <img src="/images/ryan-hs.PNG"
-                            class="img-thumbnail mx-auto"
+                            class="img-thumbnail mx-auto rounded-circle"
                             alt=""
                         >
                     </div>
