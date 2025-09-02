@@ -29,7 +29,7 @@
 
 
 <meta property="og:url" content="https://hugo-profile.netlify.app/blogs/test-post/">
-  <meta property="og:site_name" content="Cybersecurity Portfolio">
+  <meta property="og:site_name" content="Professional Portfolio">
   <meta property="og:title" content="Test Post">
   <meta property="og:description" content="This is a test post to fix the blogs page">
   <meta property="og:locale" content="en_us">
@@ -117,7 +117,7 @@
   
 
   <title>
-Test Post | Cybersecurity Portfolio
+Test Post | Professional Portfolio
 
   </title>
 </head>
@@ -180,7 +180,7 @@ Test Post | Cybersecurity Portfolio
                 
                 <img src="/images/favicon.ico" width="30" height="30"
                     class="d-inline-block align-top">
-                Cybersecurity Portfolio
+                Professional Portfolio
                 
             </a>
 
@@ -516,7 +516,7 @@ Test Post | Cybersecurity Portfolio
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="https://hugo-profile.netlify.app/" title="Cybersecurity Portfolio">
+                    <a href="https://hugo-profile.netlify.app/" title="Professional Portfolio">
                         <img alt="Footer logo" src="/images/favicon.ico"
                             height="40px" width="40px">
                     </a>
@@ -539,11 +539,13 @@ Test Post | Cybersecurity Portfolio
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (document.body.className.includes("light")) {
-        document.body.classList.add('dark');
-        localStorage.setItem("pref-theme", 'dark');
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
     }
 </script>
+
+
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
